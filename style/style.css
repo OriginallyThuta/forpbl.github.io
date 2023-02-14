@@ -1,0 +1,23 @@
+h1{
+	color:limegreen;
+}
+
+#law{
+	background: linear-gradient(blueviolet,lavender,grey);
+	color: lavender;
+}
+#bepo{
+	background: linear-gradient(aqua,blanchedalmond,crimson);
+}
+
+		#login{
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			border:1px solid blue;
+			background: linear-gradient(20deg,blue,yellow);color: white;
+		}
+		#login:hover{
+			box-shadow: 2px 3px 5px grey;
+			background: linear-gradient(20deg,yellow,blue);
+		}

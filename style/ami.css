@@ -1,0 +1,29 @@
+.body {
+  background-color: lightblue;
+  font-family: 'arial';
+}
+
+.navbar-container {
+  background-color: white;
+  overflow: hidden;
+}
+
+.navbar-main a {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-main a.left{
+  float: left;
+}
+
+.navbar-container a {
+  color: grey;
+}
+
+.navbar-container a:hover {
+  color: lightgrey;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="forl17.css">
+	<style>
+	</style>
+</head>
+<body>
+		<h1>Login Form</h1>
+		<div class="form-container">
+		<form action="#"method="POST">
+		<!--empty element-->
+		<label for="usname">Username</label>
+		<input type="text" name="username"placeholder="Enter username"id="usname"
+		autofocus required maxlength="5" />
+		<br/><br/>
+
+		
+		<label>Email</label>
+		<input type="email" name="email" placeholder="Enter email (eg John@gmail.com)"/>
+		<br/><br/>
+		<label for="psw">password</label>
+		<input type="password" name="Password"placeholder="Password"id="psw" required  maxlength="10" />
+		<br/><br/>
+
+
+
+		<label>Hobbies</label>
+		<input type="checkbox" name="reading"checked/>Reading
+		<input type="checkbox" name="swimming">Swimming
+		<input type="checkbox" name="ball">ball
+		<br/><br/>
+
+		<label>Gender</label>
+		<input type="radio" name="gender">
+		Male
+		<input type="radio" name="gender">
+		female
+		<input type="radio" name="gender">
+		Others 
+		<br/><br/>
+
+		<input type="submit" name="login" value="Log in"id="login"/>
+		<br/><br/>
+		<button type="button" id="Register">Register</button>
+
+	</form>
+</div>
+</body>
+</html>

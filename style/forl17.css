@@ -1,0 +1,48 @@
+h1{
+	color:limegreen;
+}
+
+		#login,#Register{
+			width: 300px;
+			height: 50px;
+			border-radius:5%;
+			border:1px solid blue;
+			background: linear-gradient(20deg,blue,yellow);
+			color: white;
+		}
+		#login:hover{
+			box-shadow: 2px 3px 5px grey;
+			background: linear-gradient(20deg,yellow,blue);
+		}
+		div.form-container{
+			/* border 1px solid red*/
+			width: 45vw;
+			/*to palce center for content of form*/
+			display: flex;
+			justify-content:center ;
+			/* to place center for div*/
+			margin-left: 30%;
+		}
+		h1{
+			text-align: center;
+		}
+		.form-container label{
+			width: 25%;
+			display: block;
+			float: left;
+		}
+		.form-container form{
+			width: 50%;
+		}
+		.input[type='text']{
+			border: 1px solid blue;
+		}
+		.input[type='password']{
+			border: 1px solid green;
+		}
+		.input[type='checkbox'],input[type='radio']{
+			accent-color: red;
+		}
+		input[type='text']:hover{
+			box-shadow: 3px 3px 3px red;
+		}

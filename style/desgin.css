@@ -1,0 +1,137 @@
+/*external css =have to create only one file but u can apply those CSS to all 
+relate pages without writing the same as serval */
+
+
+        .navbar{ background: black;
+            height: 10vh ;
+        }
+        .banner{
+            background: lightblue;
+            height: 50vh;
+        }
+
+        .card-section{
+            background: royalblue;
+            height: 50vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .bro{
+            width: 30%; height: 40vh;
+            border: 1px solid white;
+        }
+        .channel{
+            width: 100%;
+            height: 100vh;
+            background: orange;
+            display: flex;
+        }
+    .btngp{
+        width: 20%;
+            border: 1px solid red;
+    }
+    .viewsection{
+        width: 100%;
+        border: 1px solid sandybrown;
+    }
+    .btn{
+        width: 50%;
+        height: 5vh;
+        border-radius: 100%;
+    }
+    .ytbanner{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        padding-left: 19%;
+       }
+    
+    .ytrecommend{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        
+    }
+    .ytrecent{
+        width: 100%;
+        height: 10vh;
+        
+    }
+    .uwu{ width: 100%;
+        height: 3vh;
+        
+
+    }
+    .dog{
+        width: 100%;
+        height: 10vh;
+         border: 1px solid darkblue;
+    }
+    .bbbb{
+         width: 50%;
+        height: 10vh;
+        border: 1px solid darkblue;
+    }
+    .rrrrrr{
+        height: 40vh;
+    }
+    .nynyn{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+    }
+    .resently-upload{
+        background:orange;
+        width: 100%;
+        height: 15vh;
+    }
+    .footer{
+        display: flex;
+        height: 30vh;
+        justify-content: space-around;
+        background: linear-gradient(45deg,lightblue,lightgreen);
+    }
+    .scoialmedia,.contact,.map{
+        width: 30%;
+    } 
+    #nav ul li {
+    float: left;
+    list-style: none;  /*    to remove bullet style*/
+    margin: 0 5px; /*    top&bottom left&right*/
+   }
+#ul li a:hover{
+     color:white;
+    font-size: 25px;
+
+
+
+/*    (lowest 0 , highest 1)*/
+    opacity: 0.3;
+    text-decoration: none;/* remove underline*/
+}
+}
+/*psuedo element(Element:hover)*/
+#nav ul li a:hover{
+    opacity: 1;
+    cursor:pointer;
+    color: white ;
+/*    text-shadow: x y blur color;*/
+    text-shadow: -6px -6px 3px blue;
+    background: white;
+}
+
+
+
+
+body{
+    margin: 0; /*t r b l*/
+}
+#nav{
+    overflow: hidden;
+}
+div.banner{
+    /*background :;*/
+    background-image: url('download.jpg');
+    
+}
